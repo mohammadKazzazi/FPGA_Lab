@@ -1,0 +1,37 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+D:\DANESHGAH\term6\FPGA\ISEXilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.ex
+e -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3
+complexMultiplier.ngc complexMultiplier.ngd
+
+Reading NGO file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab
+4/LAB4_complex_multiplier/complexMultiplier.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4398536 kilobytes
+
+Writing NGD file "complexMultiplier.ngd" ...
+Total REAL time to NGDBUILD completion:  5 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "complexMultiplier.bld"...

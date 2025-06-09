@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\kazza\Documents\FPGA\Lab\4\lab 4\Lab4_Q3\DUT.v" Line 161: Module &lt;<arg fmt="%s" index="1">MultAdd2</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">pcin</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\kazza\Documents\FPGA\Lab\4\lab 4\Lab4_Q3\DUT.v" Line 174: Module &lt;<arg fmt="%s" index="1">MultAdd3</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">pcin</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\kazza\Documents\FPGA\Lab\4\lab 4\Lab4_Q3\DUT.v" Line 160: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">c</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">33</arg>-bit.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\kazza\Documents\FPGA\Lab\4\lab 4\Lab4_Q3\DUT.v" Line 161: Cannot find port <arg fmt="%s" index="1">pcin</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\kazza\Documents\FPGA\Lab\4\lab 4\Lab4_Q3\DUT.v" Line 163: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">33</arg>-bit while actual signal size is <arg fmt="%d" index="1">34</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\kazza\Documents\FPGA\Lab\4\lab 4\Lab4_Q3\DUT.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">DUT</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+

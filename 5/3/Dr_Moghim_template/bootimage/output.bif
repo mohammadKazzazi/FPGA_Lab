@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\intel_project\AX7015\new\update\05_bram_test\bram_test.sdk\fsbl\Debug\fsbl.elf
+	D:\intel_project\AX7015\new\update\05_bram_test\bram_test.sdk\top_wrapper_hw_platform_0\top_wrapper.bit
+	D:\intel_project\AX7015\new\update\05_bram_test\bram_test.sdk\bram_intr_test\Debug\bram_intr_test.elf
+}

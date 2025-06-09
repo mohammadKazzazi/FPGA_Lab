@@ -1,0 +1,15 @@
+# Output products list for <CORDIC_sqroot>
+CORDIC_sqroot.asy
+CORDIC_sqroot.gise
+CORDIC_sqroot.ngc
+CORDIC_sqroot.sym
+CORDIC_sqroot.v
+CORDIC_sqroot.veo
+CORDIC_sqroot.xco
+CORDIC_sqroot.xise
+CORDIC_sqroot\doc\cordic_ds249.pdf
+CORDIC_sqroot\doc\cordic_v4_0_vinfo.html
+CORDIC_sqroot_flist.txt
+CORDIC_sqroot_readme.txt
+CORDIC_sqroot_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

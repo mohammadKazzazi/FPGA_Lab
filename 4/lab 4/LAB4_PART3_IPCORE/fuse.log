@@ -1,0 +1,48 @@
+Running: D:\DANESHGAH\term6\FPGA\ISEXilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/tb_ALU_isim_beh.exe -prj D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/tb_ALU_beh.prj work.tb_ALU work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ipcore_dir/CORDIC_sqroot.v" into library work
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ipcore_dir/MultAdd1.v" into library work
+WARNING:HDLCompiler:687 - "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ipcore_dir/MultAdd1.v" Line 231: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ipcore_dir/MultAdd2.v" into library work
+WARNING:HDLCompiler:687 - "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ipcore_dir/MultAdd2.v" Line 233: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ipcore_dir/MultAdd3.v" into library work
+WARNING:HDLCompiler:687 - "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ipcore_dir/MultAdd3.v" Line 232: Illegal redeclaration of module <glbl>.
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/complexMultiplier.v" into library work
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.v" into library work
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/tb_ALU.v" into library work
+Analyzing Verilog file "D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/tb_ALU.v" Line 16: Port reset_MultAdd is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.v" Line 141: Size mismatch in connection of port <c>. Formal port size is 48-bit while actual signal size is 33-bit.
+WARNING:HDLCompiler:189 - "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.v" Line 154: Size mismatch in connection of port <c>. Formal port size is 48-bit while actual signal size is 34-bit.
+Completed static elaboration
+Compiling module VCC
+Compiling module GND
+Compiling module FDR
+Compiling module LUT3(INIT=8'b10101000)
+Compiling module LUT5(INIT=32'b101011001010110011...
+Compiling module INV
+Compiling module LUT2(INIT=4'b0110)
+Compiling module MUXCY
+Compiling module XORCY
+Compiling module FDE
+Compiling module CORDIC_sqroot
+Compiling module complexMultiplier
+Compiling module DSP48A1(CARRYINREG=0,CARRYOUTREG...
+Compiling module MultAdd1
+Compiling module MultAdd2
+Compiling module MultAdd3
+Compiling module ALU
+Compiling module tb_ALU
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\tb_ALU_isim_beh.exe.sim\libPortability.dll".
+Compiled 24 Verilog Units
+Built simulation executable D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/tb_ALU_isim_beh.exe
+Fuse Memory Usage: 42440 KB
+Fuse CPU Usage: 983 ms

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 23 12:56:24 2024
+# Process ID: 12284
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14164 C:\Users\kazza\Documents\FPGA\Lab\5\3\BRAM2\bram_test.xpr
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/vivado.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.xpr
+INFO: [Project 1-313] Project file moved from 'F:/intel_project/AX7010/06_bram_test' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 892.141 ; gain = 160.551
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 23 13:02:39 2024...

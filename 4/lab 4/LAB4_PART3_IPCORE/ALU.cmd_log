@@ -1,0 +1,6 @@
+vhdtdtfi -lang verilog -prj LAB4_PART3_IPCORE -o "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.tfi" -lib work "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE//ALU.v" -module ALU -template D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.xst" -ofn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.syr" 
+xst -intstyle ise -ifn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.xst" -ofn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.syr" 
+xst -intstyle ise -ifn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.xst" -ofn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.syr" 
+xst -intstyle ise -ifn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.xst" -ofn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.syr" 
+xst -intstyle ise -ifn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.xst" -ofn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/ALU.syr" 

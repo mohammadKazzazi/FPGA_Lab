@@ -1,0 +1,163 @@
+-makelib ies_lib/xil_defaultlib -sv \
+  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+-endlib
+-makelib ies_lib/xpm \
+  "C:/Xilinx/Vivado/2017.4/data/ip/xpm/xpm_VCOMP.vhd" \
+-endlib
+-makelib ies_lib/axi_infrastructure_v1_1_0 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/02c8/hdl/sc_util_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/axi_protocol_checker_v2_0_1 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/3b24/hdl/axi_protocol_checker_v2_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/axi_vip_v1_1_1 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/a16a/hdl/axi_vip_v1_1_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/processing_system7_vip_v1_0_3 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/1313/hdl/processing_system7_vip_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_processing_system7_0_0/sim/top_processing_system7_0_0.v" \
+-endlib
+-makelib ies_lib/blk_mem_gen_v8_3_6 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/2751/simulation/blk_mem_gen_v8_3.v" \
+-endlib
+-makelib ies_lib/axi_bram_ctrl_v4_0_13 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/20fd/hdl/axi_bram_ctrl_v4_0_rfs.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_axi_bram_ctrl_0_0/sim/top_axi_bram_ctrl_0_0.vhd" \
+-endlib
+-makelib ies_lib/blk_mem_gen_v8_4_1 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/67d8/simulation/blk_mem_gen_v8_4.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_blk_mem_gen_0_0/sim/top_blk_mem_gen_0_0.v" \
+-endlib
+-makelib ies_lib/axi_lite_ipif_v3_0_4 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/cced/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/lib_cdc_v1_0_2 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
+-endlib
+-makelib ies_lib/interrupt_control_v3_1_4 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/8e66/hdl/interrupt_control_v3_1_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/axi_gpio_v2_0_17 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/c450/hdl/axi_gpio_v2_0_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_axi_gpio_0_0/sim/top_axi_gpio_0_0.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ipshared/b23b/hdl/pl_ram_ctrl_v2_0_S00_AXI.v" \
+  "../../../bd/top/ipshared/b23b/src/ram_read_write.v" \
+  "../../../bd/top/ipshared/b23b/hdl/pl_ram_ctrl_v2_0.v" \
+  "../../../bd/top/ip/top_pl_ram_ctrl_0_0/sim/top_pl_ram_ctrl_0_0.v" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/sim/bd_b43a.v" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/786b/hdl/sc_axi2sc_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_10/sim/bd_b43a_s00a2s_0.sv" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/92d2/hdl/sc_sc2axi_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_16/sim/bd_b43a_m00s2a_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_23/sim/bd_b43a_m01s2a_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_30/sim/bd_b43a_m02s2a_0.sv" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/258c/hdl/sc_exit_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_36/sim/bd_b43a_m02e_0.sv" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/e2dd/hdl/sc_node_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_31/sim/bd_b43a_m02arn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_32/sim/bd_b43a_m02rn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_33/sim/bd_b43a_m02awn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_34/sim/bd_b43a_m02wn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_35/sim/bd_b43a_m02bn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_29/sim/bd_b43a_m01e_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_24/sim/bd_b43a_m01arn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_25/sim/bd_b43a_m01rn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_26/sim/bd_b43a_m01awn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_27/sim/bd_b43a_m01wn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_28/sim/bd_b43a_m01bn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_22/sim/bd_b43a_m00e_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_17/sim/bd_b43a_m00arn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_18/sim/bd_b43a_m00rn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_19/sim/bd_b43a_m00awn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_20/sim/bd_b43a_m00wn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_21/sim/bd_b43a_m00bn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_11/sim/bd_b43a_sarn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_12/sim/bd_b43a_srn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_13/sim/bd_b43a_sawn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_14/sim/bd_b43a_swn_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_15/sim/bd_b43a_sbn_0.sv" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/8ad6/hdl/sc_mmu_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_7/sim/bd_b43a_s00mmu_0.sv" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/0f5f/hdl/sc_transaction_regulator_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_8/sim/bd_b43a_s00tr_0.sv" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/925a/hdl/sc_si_converter_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_9/sim/bd_b43a_s00sic_0.sv" \
+-endlib
+-makelib ies_lib/smartconnect_v1_0 -sv \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/1b0c/hdl/sc_switchboard_v1_0_vl_rfs.sv" \
+-endlib
+-makelib ies_lib/xil_defaultlib -sv \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_2/sim/bd_b43a_arsw_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_3/sim/bd_b43a_rsw_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_4/sim/bd_b43a_awsw_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_5/sim/bd_b43a_wsw_0.sv" \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_6/sim/bd_b43a_bsw_0.sv" \
+-endlib
+-makelib ies_lib/xlconstant_v1_1_3 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_0/sim/bd_b43a_one_0.v" \
+-endlib
+-makelib ies_lib/proc_sys_reset_v5_0_12 \
+  "../../../../bram_test.srcs/sources_1/bd/top/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_axi_smc_0/bd_0/ip/ip_1/sim/bd_b43a_psr_aclk_0.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_axi_smc_0/sim/top_axi_smc_0.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/ip/top_rst_ps7_0_50M_0/sim/top_rst_ps7_0_50M_0.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/top/sim/top.v" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  glbl.v
+-endlib
+

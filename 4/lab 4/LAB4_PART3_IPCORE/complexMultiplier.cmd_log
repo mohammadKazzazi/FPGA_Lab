@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/complexMultiplier.xst" -ofn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/complexMultiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "complexMultiplier.ngc" complexMultiplier.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o complexMultiplier_map.ncd complexMultiplier.ngd complexMultiplier.pcf 
+par -w -intstyle ise -ol high -mt off complexMultiplier_map.ncd complexMultiplier.ncd complexMultiplier.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml complexMultiplier.twx complexMultiplier.ncd -o complexMultiplier.twr complexMultiplier.pcf 
+xst -intstyle ise -ifn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/complexMultiplier.xst" -ofn "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/complexMultiplier.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "complexMultiplier.ngc" complexMultiplier.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o complexMultiplier_map.ncd complexMultiplier.ngd complexMultiplier.pcf 
+par -w -intstyle ise -ol high -mt off complexMultiplier_map.ncd complexMultiplier.ncd complexMultiplier.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml complexMultiplier.twx complexMultiplier.ncd -o complexMultiplier.twr complexMultiplier.pcf 
+vhdtdtfi -lang verilog -prj LAB4_PART3_IPCORE -o "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE/complexMultiplier.tfi" -lib work "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_PART3_IPCORE//complexMultiplier.v" -module complexMultiplier -template D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

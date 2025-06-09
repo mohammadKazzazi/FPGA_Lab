@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test/BRAM_Test.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_1/sim/design_1_axi_bram_ctrl_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity design_1_axi_bram_ctrl_0_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test/BRAM_Test.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_1_0/sim/design_1_axi_bram_ctrl_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity design_1_axi_bram_ctrl_1_0
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test/BRAM_Test.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_50M_0/sim/design_1_rst_ps7_0_50M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity design_1_rst_ps7_0_50M_0

@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_part2_modelsim
+vcomplexMultiplier
+Z1 !s110 1714764827
+!i10b 1
+!s100 4F7jHciY^YZc;fbFTf0G32
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`IM>04mhHaZBM_QVzfn9Z1
+R0
+w1714761901
+8complexMultiplier.v
+FcomplexMultiplier.v
+!i122 3
+L0 1 35
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z5 !s108 1714764827.000000
+!s107 complexMultiplier.v|
+!s90 -reportprogress|300|complexMultiplier.v|
+!i113 0
+Z6 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+ncomplex@multiplier
+vglbl
+R1
+!i10b 1
+!s100 A2;7Y<mjg9G1MIPZ^zU:j1
+R2
+I9PH<8S`W?j3WdG7=@fUBU1
+R0
+w1381681120
+8D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FD:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+!i122 5
+L0 5 62
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+R6
+R7
+vtb_ComplexMultiplier
+R1
+!i10b 1
+!s100 bQWkSJI1SJCHzd7aViO^P0
+R2
+Ilzm`GDJ`j3`@TDW0gUCUn1
+R0
+w1714761893
+8tb_complexMultiplier.v
+Ftb_complexMultiplier.v
+!i122 4
+L0 1 34
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 tb_complexMultiplier.v|
+!s90 -reportprogress|300|tb_complexMultiplier.v|
+!i113 0
+R6
+R7
+ntb_@complex@multiplier

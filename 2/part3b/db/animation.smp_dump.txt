@@ -1,0 +1,6 @@
+
+State Machine - |animation|currentState
+Name currentState.erase currentState.plot currentState.indeterminate 
+currentState.indeterminate 0 0 0 
+currentState.plot 0 1 1 
+currentState.erase 1 0 1 

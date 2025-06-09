@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 21 11:20:46 2024
+# Process ID: 1060
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12704 C:\Users\kazza\Documents\FPGA\Lab\5\3\Dr_Moghim_template\bram_test.tmp\pl_ram_ctrl_v2_0_project\pl_ram_ctrl_v2_0_project.xpr
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project/vivado.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project/pl_ram_ctrl_v2_0_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 21 11:21:26 2024...

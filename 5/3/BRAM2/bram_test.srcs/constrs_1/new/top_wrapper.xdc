@@ -1,0 +1,42 @@
+create_debug_core u_ila_0 ila
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 2 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list top_i/processing_system7_0/inst/FCLK_CLK0]]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+set_property port_width 4 [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {top_i/blk_mem_gen_0/web[0]} {top_i/blk_mem_gen_0/web[1]} {top_i/blk_mem_gen_0/web[2]} {top_i/blk_mem_gen_0/web[3]}]]
+create_debug_port u_ila_0 probe
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {top_i/blk_mem_gen_0/doutb[0]} {top_i/blk_mem_gen_0/doutb[1]} {top_i/blk_mem_gen_0/doutb[2]} {top_i/blk_mem_gen_0/doutb[3]} {top_i/blk_mem_gen_0/doutb[4]} {top_i/blk_mem_gen_0/doutb[5]} {top_i/blk_mem_gen_0/doutb[6]} {top_i/blk_mem_gen_0/doutb[7]} {top_i/blk_mem_gen_0/doutb[8]} {top_i/blk_mem_gen_0/doutb[9]} {top_i/blk_mem_gen_0/doutb[10]} {top_i/blk_mem_gen_0/doutb[11]} {top_i/blk_mem_gen_0/doutb[12]} {top_i/blk_mem_gen_0/doutb[13]} {top_i/blk_mem_gen_0/doutb[14]} {top_i/blk_mem_gen_0/doutb[15]} {top_i/blk_mem_gen_0/doutb[16]} {top_i/blk_mem_gen_0/doutb[17]} {top_i/blk_mem_gen_0/doutb[18]} {top_i/blk_mem_gen_0/doutb[19]} {top_i/blk_mem_gen_0/doutb[20]} {top_i/blk_mem_gen_0/doutb[21]} {top_i/blk_mem_gen_0/doutb[22]} {top_i/blk_mem_gen_0/doutb[23]} {top_i/blk_mem_gen_0/doutb[24]} {top_i/blk_mem_gen_0/doutb[25]} {top_i/blk_mem_gen_0/doutb[26]} {top_i/blk_mem_gen_0/doutb[27]} {top_i/blk_mem_gen_0/doutb[28]} {top_i/blk_mem_gen_0/doutb[29]} {top_i/blk_mem_gen_0/doutb[30]} {top_i/blk_mem_gen_0/doutb[31]}]]
+create_debug_port u_ila_0 probe
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+set_property port_width 32 [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {top_i/blk_mem_gen_0/addrb[0]} {top_i/blk_mem_gen_0/addrb[1]} {top_i/blk_mem_gen_0/addrb[2]} {top_i/blk_mem_gen_0/addrb[3]} {top_i/blk_mem_gen_0/addrb[4]} {top_i/blk_mem_gen_0/addrb[5]} {top_i/blk_mem_gen_0/addrb[6]} {top_i/blk_mem_gen_0/addrb[7]} {top_i/blk_mem_gen_0/addrb[8]} {top_i/blk_mem_gen_0/addrb[9]} {top_i/blk_mem_gen_0/addrb[10]} {top_i/blk_mem_gen_0/addrb[11]} {top_i/blk_mem_gen_0/addrb[12]} {top_i/blk_mem_gen_0/addrb[13]} {top_i/blk_mem_gen_0/addrb[14]} {top_i/blk_mem_gen_0/addrb[15]} {top_i/blk_mem_gen_0/addrb[16]} {top_i/blk_mem_gen_0/addrb[17]} {top_i/blk_mem_gen_0/addrb[18]} {top_i/blk_mem_gen_0/addrb[19]} {top_i/blk_mem_gen_0/addrb[20]} {top_i/blk_mem_gen_0/addrb[21]} {top_i/blk_mem_gen_0/addrb[22]} {top_i/blk_mem_gen_0/addrb[23]} {top_i/blk_mem_gen_0/addrb[24]} {top_i/blk_mem_gen_0/addrb[25]} {top_i/blk_mem_gen_0/addrb[26]} {top_i/blk_mem_gen_0/addrb[27]} {top_i/blk_mem_gen_0/addrb[28]} {top_i/blk_mem_gen_0/addrb[29]} {top_i/blk_mem_gen_0/addrb[30]} {top_i/blk_mem_gen_0/addrb[31]}]]
+create_debug_port u_ila_0 probe
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+set_property port_width 32 [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {top_i/blk_mem_gen_0/dinb[0]} {top_i/blk_mem_gen_0/dinb[1]} {top_i/blk_mem_gen_0/dinb[2]} {top_i/blk_mem_gen_0/dinb[3]} {top_i/blk_mem_gen_0/dinb[4]} {top_i/blk_mem_gen_0/dinb[5]} {top_i/blk_mem_gen_0/dinb[6]} {top_i/blk_mem_gen_0/dinb[7]} {top_i/blk_mem_gen_0/dinb[8]} {top_i/blk_mem_gen_0/dinb[9]} {top_i/blk_mem_gen_0/dinb[10]} {top_i/blk_mem_gen_0/dinb[11]} {top_i/blk_mem_gen_0/dinb[12]} {top_i/blk_mem_gen_0/dinb[13]} {top_i/blk_mem_gen_0/dinb[14]} {top_i/blk_mem_gen_0/dinb[15]} {top_i/blk_mem_gen_0/dinb[16]} {top_i/blk_mem_gen_0/dinb[17]} {top_i/blk_mem_gen_0/dinb[18]} {top_i/blk_mem_gen_0/dinb[19]} {top_i/blk_mem_gen_0/dinb[20]} {top_i/blk_mem_gen_0/dinb[21]} {top_i/blk_mem_gen_0/dinb[22]} {top_i/blk_mem_gen_0/dinb[23]} {top_i/blk_mem_gen_0/dinb[24]} {top_i/blk_mem_gen_0/dinb[25]} {top_i/blk_mem_gen_0/dinb[26]} {top_i/blk_mem_gen_0/dinb[27]} {top_i/blk_mem_gen_0/dinb[28]} {top_i/blk_mem_gen_0/dinb[29]} {top_i/blk_mem_gen_0/dinb[30]} {top_i/blk_mem_gen_0/dinb[31]}]]
+create_debug_port u_ila_0 probe
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list top_i/blk_mem_gen_0/enb]]
+create_debug_port u_ila_0 probe
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list top_i/axi_gpio_0/ip2intc_irpt]]
+create_debug_port u_ila_0 probe
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+set_property port_width 1 [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list top_i/pl_ram_ctrl_0/write_end]]
+set_property C_CLK_INPUT_FREQ_HZ 300000000 [get_debug_cores dbg_hub]
+set_property C_ENABLE_CLK_DIVIDER false [get_debug_cores dbg_hub]
+set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]
+connect_debug_port dbg_hub/clk [get_nets u_ila_0_FCLK_CLK0]

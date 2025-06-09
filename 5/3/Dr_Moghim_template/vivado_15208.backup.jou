@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 23 13:01:55 2024
+# Process ID: 15208
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5780 C:\Users\kazza\Documents\FPGA\Lab\5\3\Dr_Moghim_template\bram_test.xpr
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/vivado.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+file mkdir C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.sdk
+file copy -force C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.runs/impl_1/top_wrapper.sysdef C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.sdk/top_wrapper.hdf
+
+launch_sdk -workspace C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.sdk -hwspec C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.sdk/top_wrapper.hdf
+open_bd_design {C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.srcs/sources_1/bd/top/top.bd}
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+open_bd_design {C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.srcs/sources_1/bd/top/top.bd}
+undo
+regenerate_bd_layout
+open_bd_design {C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.srcs/sources_1/bd/top/top.bd}
+regenerate_bd_layout
+ipx::edit_ip_in_project -upgrade true -name pl_ram_ctrl_v2_0_project -directory C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project c:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/ip_repo/pl_ram_ctrl_2.0/component.xml
+update_compile_order -fileset sources_1
+close_project
+ipx::edit_ip_in_project -upgrade true -name pl_ram_ctrl_v2_0_project -directory C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project c:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/ip_repo/pl_ram_ctrl_2.0/component.xml
+update_compile_order -fileset sources_1
+close_project
+regenerate_bd_layout
+save_bd_design

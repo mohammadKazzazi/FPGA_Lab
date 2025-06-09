@@ -1,0 +1,3 @@
+verilog work "complexMultiplier.v"
+verilog work "tb_complexMultiplier.v"
+verilog work "D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

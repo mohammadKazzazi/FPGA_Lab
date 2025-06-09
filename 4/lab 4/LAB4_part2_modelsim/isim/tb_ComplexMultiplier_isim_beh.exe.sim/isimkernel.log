@@ -1,0 +1,28 @@
+Command line:
+   tb_ComplexMultiplier_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  14370
+
+Fri May 03 22:15:10 2024
+
+
+ Elaboration Time: 0.234375 sec
+
+ Current Memory Usage: 5155.23 Meg
+
+ Total Signals          : 19
+ Total Nets             : 79
+ Total Signal Drivers   : 10
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 15
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 289
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 5469.81 Meg
+
+Fri May 03 22:16:09 2024
+

@@ -1,0 +1,26 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> 
+Reading constraint file C:/Users/ASUS/Desktop/FPGA-LAB_LAB04_Wed-G_Report/Lab4/Lab4/DUT.xcf.
+ERROR:Xst:1586 - Line 4: Syntax error detected column 7 token is  . Check if you misspelled a keyword (INST, NET, MODEL, ...) or the TIMESPEC identifier does not begin with TS.
+ERROR:Xst:1338 - XCF parsing failed.
+--> 
+
+Total memory usage is 4422772 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

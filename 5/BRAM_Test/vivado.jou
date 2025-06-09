@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May  6 22:58:15 2024
+# Process ID: 5944
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15016 C:\Users\kazza\Documents\FPGA\Lab\5\BRAM_Test\BRAM_Test.xpr
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test/vivado.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test/BRAM_Test.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source design_1_wrapper.tcl
+open_bd_design {C:/Users/kazza/Documents/FPGA/Lab/5/BRAM_Test/BRAM_Test.srcs/sources_1/bd/design_1/design_1.bd}
+close_sim

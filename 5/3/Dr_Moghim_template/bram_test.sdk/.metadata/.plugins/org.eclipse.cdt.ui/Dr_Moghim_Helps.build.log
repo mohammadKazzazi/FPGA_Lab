@@ -1,0 +1,34 @@
+15:06:42 **** Auto Build of configuration Debug for project Dr_Moghim_Helps ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:155:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(5000000);
+     ^~~~~~
+../src/helloworld.c:182:42: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         for (i=0;i<1024;i++) sin_lists[i]=NULL;
+                                          ^
+At top level:
+../src/helloworld.c:115:12: warning: 'WriteFile' defined but not used [-Wunused-function]
+ static int WriteFile(char *FileName,u32 SourceAddress,u32 ByteLength)
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: Dr_Moghim_Helps.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "Dr_Moghim_Helps.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Dr_Moghim_Helps.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size Dr_Moghim_Helps.elf  |tee "Dr_Moghim_Helps.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  49640	   1192	  24512	  75344	  12650	Dr_Moghim_Helps.elf
+'Finished building: Dr_Moghim_Helps.elf.size'
+' '
+
+15:06:43 Build Finished (took 1s.117ms)
+

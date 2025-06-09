@@ -1,0 +1,8 @@
+verilog isim_temp "ipcore_dir/CORDIC_sqroot.v"
+verilog isim_temp "ipcore_dir/MultAdd1.v"
+verilog isim_temp "ipcore_dir/MultAdd2.v"
+verilog isim_temp "ipcore_dir/MultAdd3.v"
+verilog isim_temp "complexMultiplier.v"
+verilog isim_temp "ALU.v"
+verilog isim_temp "tb_ALU.v"
+verilog isim_temp "D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

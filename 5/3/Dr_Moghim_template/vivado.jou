@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 21 11:12:53 2024
+# Process ID: 7508
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8676 C:\Users\kazza\Documents\FPGA\Lab\5\3\Dr_Moghim_template\bram_test.xpr
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/vivado.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.xpr
+update_compile_order -fileset sources_1
+
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.srcs/sources_1/bd/design_1/design_1.bd}
+open_bd_design {C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.srcs/sources_1/bd/top/top.bd}
+ipx::edit_ip_in_project -upgrade true -name pl_ram_ctrl_v2_0_project -directory C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.tmp/pl_ram_ctrl_v2_0_project c:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/ip_repo/pl_ram_ctrl_2.0/component.xml
+update_compile_order -fileset sources_1
+current_project bram_test
+close_project

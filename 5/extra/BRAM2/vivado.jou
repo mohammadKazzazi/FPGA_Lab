@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 28 15:28:40 2024
+# Process ID: 10740
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15436 C:\Users\kazza\Documents\FPGA\Lab\5\extra\BRAM2\bram_test.xpr
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2/vivado.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2/bram_test.xpr
+update_compile_order -fileset sources_1
+file copy -force C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2/bram_test.runs/impl_1/top_wrapper.sysdef C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2/bram_test.sdk/top_wrapper.hdf
+
+launch_sdk -workspace C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2/bram_test.sdk -hwspec C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2/bram_test.sdk/top_wrapper.hdf

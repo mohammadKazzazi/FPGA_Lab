@@ -1,0 +1,6 @@
+verilog work "ipcore_dir/MultAdd3.v"
+verilog work "ipcore_dir/MultAdd2.v"
+verilog work "ipcore_dir/MultAdd1.v"
+verilog work "ipcore_dir/CORDIC.v"
+verilog work "ComplexMultiplier.v"
+verilog work "DUT.v"

@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue May 21 10:51:44 2024
+# Process ID: 10964
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2952 C:\Users\kazza\Documents\FPGA\Lab\5\3\BRAM2\bram_test.xpr
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/vivado.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.xpr
+INFO: [Project 1-313] Project file moved from 'F:/intel_project/AX7010/06_bram_test' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 857.473 ; gain = 173.121
+update_compile_order -fileset sources_1
+file mkdir C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.sdk
+file copy -force C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.runs/impl_1/top_wrapper.sysdef C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.sdk/top_wrapper.hdf
+
+launch_sdk -workspace C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.sdk -hwspec C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.sdk/top_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.sdk -hwspec C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.sdk/top_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue May 21 10:54:42 2024] Launched impl_1...
+Run output will be captured here: C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/bram_test.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 371 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper_board.xdc]
+Finished Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper_board.xdc]
+Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper_early.xdc]
+Finished Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper_early.xdc]
+Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [f:/intel_project/AX7010/06_bram_test/bram_test.runs/impl_1/.Xil/Vivado-5208-DESKTOP-DH1FU73/dbg_hub_CV.0/out/xsdbm.xdc:10]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1865.848 ; gain = 567.465
+Finished Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper.xdc]
+Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper_late.xdc]
+Finished Parsing XDC File [C:/Users/kazza/Documents/FPGA/Lab/5/3/BRAM2/.Xil/Vivado-10964-DESKTOP-H51LNNA/dcp0/top_wrapper_late.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1890.312 ; gain = 18.961
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1890.312 ; gain = 18.961
+Generating merged BMM file for the design top 'top_wrapper'...
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 206 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 92 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 114 instances
+
+open_run: Time (s): cpu = 00:00:38 ; elapsed = 00:00:29 . Memory (MB): peak = 2027.754 ; gain = 1150.051
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 21 11:11:55 2024...

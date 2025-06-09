@@ -1,0 +1,83 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {tb_ComplexMultiplier.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 23:03:47 on May 03,2024
+# vlog -reportprogress 300 complexMultiplier.v 
+# -- Compiling module complexMultiplier
+# 
+# Top level modules:
+# 	complexMultiplier
+# End time: 23:03:47 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 23:03:47 on May 03,2024
+# vlog -reportprogress 300 tb_complexMultiplier.v 
+# -- Compiling module tb_ComplexMultiplier
+# 
+# Top level modules:
+# 	tb_ComplexMultiplier
+# End time: 23:03:47 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 23:03:47 on May 03,2024
+# vlog -reportprogress 300 D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 23:03:47 on May 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.tb_ComplexMultiplier glbl 
+# Start time: 23:03:47 on May 03,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v(1): (vopt-2669) Unable to find library 'xilinxcorelib_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v(1): (vopt-2669) Unable to find library 'unisims_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v(1): (vopt-2669) Unable to find library 'unimacro_ver'.
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vopt-19) Failed to access library 'secureip' at "secureip".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: D:/DANESHGAH/term6/FPGA/ISEXilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v(1): (vopt-2669) Unable to find library 'secureip'.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=12, Warnings=4.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tb_ComplexMultiplier.fdo PAUSED at line 29
+# End time: 23:05:16 on May 03,2024, Elapsed time: 0:01:29
+# Errors: 12, Warnings: 4

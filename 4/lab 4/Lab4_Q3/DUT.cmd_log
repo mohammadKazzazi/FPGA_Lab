@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/kazza/Documents/FPGA/Lab/4/lab 4/Lab4_Q3/DUT.xst" -ofn "C:/Users/kazza/Documents/FPGA/Lab/4/lab 4/Lab4_Q3/DUT.syr" 
+xst -intstyle ise -ifn "C:/Users/kazza/Documents/FPGA/Lab/4/lab 4/Lab4_Q3/DUT.xst" -ofn "C:/Users/kazza/Documents/FPGA/Lab/4/lab 4/Lab4_Q3/DUT.syr" 

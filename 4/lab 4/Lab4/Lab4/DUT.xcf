@@ -1,0 +1,4 @@
+BEGIN MODEL "DUT"
+NET "Clk" clock_signal = yes;
+END;
+MODEL “DUT” keep_hierarchy = {yes};

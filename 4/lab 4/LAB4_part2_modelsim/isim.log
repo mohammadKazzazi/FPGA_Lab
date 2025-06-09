@@ -1,0 +1,16 @@
+ISim log file
+Running: D:\DANESHGAH\term6\FPGA\Lab assignments\LAB 4_8\lab 4\LAB4_complex_multiplier\tb_ComplexMultiplier_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/tb_ComplexMultiplier_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Time =               100000 | result =          x
+Time =               300000 | result =          x
+Time =               500000 | result = 4294836224
+Time =               700000 | result = 4294836224
+Time =               900000 | result = 4294836224
+Stopped at time : 1 us : File "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/tb_complexMultiplier.v" Line 31

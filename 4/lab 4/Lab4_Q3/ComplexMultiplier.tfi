@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+ComplexMultiplier instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .InputMultiplier1(InputMultiplier1), 
+    .InputMultiplier2(InputMultiplier2), 
+    .MultiplicationResult(MultiplicationResult)
+    );
+
+

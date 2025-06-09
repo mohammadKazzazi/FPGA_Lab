@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Tue Apr 30 14:11:07 2024
+# Process ID: 4664
+# Current directory: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/kazza/Documents/FPGA/Lab/5/3/Dr_Moghim_template/bram_test.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

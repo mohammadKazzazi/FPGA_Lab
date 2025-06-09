@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="top_pl_ram_ctrl_0_0_synth_1" LaunchDir="C:/Users/kazza/Documents/FPGA/Lab/5/extra/BRAM2/bram_test.runs/top_pl_ram_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

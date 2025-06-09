@@ -1,0 +1,20 @@
+C:\Users\kazza\Documents\FPGA\Lab\3\part1\implementation\system.ngc 1712653774
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_push_buttons_5bits_wrapper.ngc 1712653581
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_ethernet_lite_wrapper.ngc 1712653760
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_dip_switches_8bits_wrapper.ngc 1712653736
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_rs232_uart_1_wrapper.ngc 1712653481
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_proc_sys_reset_0_wrapper.ngc 1712653399
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_clock_generator_0_wrapper.ngc 1712653747
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_microblaze_0_ilmb_wrapper.ngc 1712653739
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_microblaze_0_dlmb_wrapper.ngc 1712653741
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_mcb_ddr2_wrapper.ngc 1712653758
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_axi4lite_0_wrapper.ngc 1712653749
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_axi4_0_wrapper.ngc 1712653752
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_microblaze_0_wrapper.ngc 1712653744
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_microblaze_0_i_bram_ctrl_wrapper.ngc 1712653407
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_microblaze_0_d_bram_ctrl_wrapper.ngc 1712653416
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_debug_module_wrapper.ngc 1712653454
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_qspi_flash_wrapper.ngc 1712653755
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_leds_8bits_wrapper.ngc 1712653601
+C:/Users/kazza/Documents/FPGA/Lab/3/part1/implementation/system_microblaze_0_bram_block_wrapper.ngc 1712653420
+OK

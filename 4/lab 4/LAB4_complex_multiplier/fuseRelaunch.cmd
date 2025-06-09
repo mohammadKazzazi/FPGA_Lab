@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/tb_ComplexMultiplier_isim_beh.exe" -prj "D:/DANESHGAH/term6/FPGA/Lab assignments/LAB 4_8/lab 4/LAB4_complex_multiplier/tb_ComplexMultiplier_beh.prj" "work.tb_ComplexMultiplier" "work.glbl" 

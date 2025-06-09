@@ -1,0 +1,7 @@
+
+State Machine - |animation|state
+Name state.finished state.plotting state.deleting state.waiting 
+state.waiting 0 0 0 0 
+state.deleting 0 0 1 1 
+state.plotting 0 1 0 1 
+state.finished 1 0 0 1 

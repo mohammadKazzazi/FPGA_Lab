@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Lab4_Q3 -o "C:/Users/kazza/Documents/FPGA/Lab/4/lab 4/Lab4_Q3/ComplexMultiplier.tfi" -lib work "C:/Users/kazza/Documents/FPGA/Lab/4/lab 4/Lab4_Q3//ComplexMultiplier.v" -module ComplexMultiplier -template C:/Xilinx_ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
